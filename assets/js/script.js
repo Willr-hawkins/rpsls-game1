@@ -46,29 +46,18 @@ function playGame(playerChoice) {
 
 function checkWinner(computerChoice, playerChoice) {
 
-    if (playerChoice === "Rock" && computerChoice === "Lizard" || computerChoice === "Scissors") {
-        return [document.getElementById("messages").innerText = "Player Wins!"];
-    } else if (playerChoice === "Paper" && computerChoice === "Rock" ||  computerChoice === "Spock") {
-        return [document.getElementById("messages").innerText = "Player Wins!"]
-    } else if (playerChoice === "Scissors" && computerChoice === "Paper" || computerChoice === "Lizard") {
-        return [document.getElementById("messages").innerText = "Player Wins!"]
-    } else if (playerChoice === "Lizard" && computerChoice === "Spock" || computerChoice === "Paper") {
-        return [document.getElementById("messages").innerText = "Player Wins!"]
-    } else if (playerChoice === "Spock" && computerChoice === "Scissors" || computerChoice === "Rock") {
-        return [document.getElementById("messages").innerText = "Player Wins!"]
-    } else if (computerChoice === "Rock" && playerChoice === "Lizard" || playerChoice === "Scissors") {
-        return [document.getElementById("messages").innerText = "Computer Wins!"]
-    } else if (computerChoice === "Paper" && playerChoice === "Rock" || playerChoice === "Spock") {
-        return [document.getElementById("messages").innerText = "Computer Wins!"]
-    } else if (computerChoice === "Scissors" && playerChoice === "Paper" || playerChoice === "Lizard") {
-        return [document.getElementById("messages").innerText = "Computer Wins!"]
-    } else if (computerChoice === "Lizard" && playerChoice === "Spock" || playerChoice === "Paper") {
-        return [document.getElementById("messages").innerText = "Computer Wins!"]
-    } else if (computerChoice === "Spock" && playerChoice === "Scissors" || playerChoice === "Rock") {
-        return [document.getElementById("messages").innerText = "Computer Wins!"]
-    } else {
-        alert (`Unimplemnted Choice ${playerChoices}`);
-        throw `Unimplemented Choice ${playerChoices}`;
+    if (playerChoice === computerChoice) {
+        return document.getElementById("messages").innerText = "It is a draw!";
+    } else if (playerChoice === "Rock") {
+        if (computerChoice === "Paper") {
+            return document.getElementById("messages").innerText = "Paper covers rock. Computer Wins!";
+        } else if (computerChoice === "Scissors") {
+            return document.getElementById("messages").innerText = "Rock crushes scissors. Player Wins!";
+        } else if (computerChoice === "Lizard") {
+            return document.getElementById("messages").innerText = "Rock crushes Lizard. Player wins!";
+        } else if (computerChoice === "Spock") {
+            return document.getElementById("messages").innerText = "Spock vapozes rock. Computer wins!";
+        }
     }
 
 }
