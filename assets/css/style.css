@@ -83,8 +83,8 @@ header h2 {
 }
 
 #player-image {
-    width: 75%;
-    height: 75%;
+    width: 100%;
+    height: 100%;
 }
 
 .computer {
@@ -93,8 +93,8 @@ header h2 {
 }
 
 #computer-image {
-    width: 75%;
-    height: 75%;
+    width: 100%;
+    height: 100%;
     
 }
 
@@ -107,7 +107,7 @@ footer {
     width: 100%;
     left: 0;
     bottom: 0;
-    position: absolute;
+    position: fixed;
     box-sizing: border-box;
     min-height: 80px;
     padding-top: 30px;
@@ -122,6 +122,16 @@ footer p {
 /* Add media query for tablets and larger */
 
 @media screen and (min-width: 768px) {
+
+    #player-image {
+        width: 75%;
+        height: 75%;
+    }
+
+    #computer-image {
+        width: 75%;
+        height: 75%;
+    }
 
     .player {
         float: left;
