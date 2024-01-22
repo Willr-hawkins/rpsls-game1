@@ -78,6 +78,16 @@ function checkWinner(computerChoice, playerChoice) {
         } else if (computerChoice === "Spock") {
             return document.getElementById("messages").innerText = "Spock smashes scissors. Computer wins!";
         }
+    } else if (playerChoice === "Lizard") {
+        if (computerChoice === "Rock") {
+            return document.getElementById("messages").innerText = "Rock crushes lizard. Computer wins!";
+        } else if (computerChoice === "Paper") {
+            return document.getElementById("messages").innerText = "Lizard eats paper. Player wins!";
+        } else if (computerChoice === "Scissors") {
+            return document.getElementById("messages").innerText = "Scissors decapitate lizard. Computer wins!";
+        } else if (computerChoice === "Spock") {
+            return document.getElementById("messages").innerText = "Lizard posions spock. Player wins!";
+        }
     }
 
 }
