@@ -51,6 +51,7 @@ function checkWinner(computerChoice, playerChoice) {
         return document.getElementById("messages").innerText = "It is a draw!";
     } else if (playerChoice === "Rock") {
         if (computerChoice === "Paper") {
+            incrementComputerScore();
             return document.getElementById("messages").innerText = "Paper covers rock. Computer Wins!";
         } else if (computerChoice === "Scissors") {
             incrementPlayerScore();
@@ -59,6 +60,7 @@ function checkWinner(computerChoice, playerChoice) {
             incrementPlayerScore();
             return document.getElementById("messages").innerText = "Rock crushes Lizard. Player wins!";
         } else if (computerChoice === "Spock") {
+            incrementComputerScore();
             return document.getElementById("messages").innerText = "Spock vapozes rock. Computer wins!";
         }
     } else if (playerChoice === "Paper") {
@@ -66,8 +68,10 @@ function checkWinner(computerChoice, playerChoice) {
             incrementPlayerScore();
             return document.getElementById("messages").innerText = "Paper covers rock. Player wins!";
         } else if (computerChoice === "Scissors") {
+            incrementComputerScore();
             return document.getElementById("messages").innerText = "Scissors cut paper. Computer wins!";
         } else if (computerChoice === "Lizard") {
+            incrementComputerScore();
             return document.getElementById("messages").innerText = "Lizard eats paper. Computer wins!";
         } else if (computerChoice === "Spock") {
             incrementPlayerScore();
@@ -75,6 +79,7 @@ function checkWinner(computerChoice, playerChoice) {
         } 
     } else if (playerChoice === "Scissors") {
         if (computerChoice === "Rock") {
+            incrementComputerScore();
             return document.getElementById("messages").innerText = "Rock crushes Scissors. Computer Wins!";
         } else if (computerChoice === "Paper") {
             incrementPlayerScore();
@@ -83,15 +88,18 @@ function checkWinner(computerChoice, playerChoice) {
             incrementPlayerScore();
             return document.getElementById("messages").innerText = "Scissors decapitate lizard. Player wins!";
         } else if (computerChoice === "Spock") {
+            incrementComputerScore();
             return document.getElementById("messages").innerText = "Spock smashes scissors. Computer wins!";
         }
     } else if (playerChoice === "Lizard") {
         if (computerChoice === "Rock") {
+            incrementComputerScore();
             return document.getElementById("messages").innerText = "Rock crushes lizard. Computer wins!";
         } else if (computerChoice === "Paper") {
             incrementPlayerScore();
             return document.getElementById("messages").innerText = "Lizard eats paper. Player wins!";
         } else if (computerChoice === "Scissors") {
+            incrementComputerScore();
             return document.getElementById("messages").innerText = "Scissors decapitate lizard. Computer wins!";
         } else if (computerChoice === "Spock") {
             incrementPlayerScore();
@@ -102,11 +110,13 @@ function checkWinner(computerChoice, playerChoice) {
             incrementPlayerScore();
             return document.getElementById("messages").innerText = "Spock vaporizes rock. Player wins!";
         } else if (computerChoice === "Paper") {
+            incrementComputerScore();
             return document.getElementById("messages").innerText = "Paper disproves spock. Computer wins!";
         } else if (computerChoice === "Scissors") {
             incrementPlayerScore();
             return document.getElementById("messages").innerText = "Spock smashes scissors. Player wins!";
         } else if (computerChoice === "Lizard") {
+            incrementComputerScore();
             return document.getElementById("messages").innerText = "Lizard posions spock. Computer wins!";
         }
     }
@@ -124,3 +134,13 @@ function incrementPlayerScore () {
 
 }
 
+/**
+ * Get the current computer score from the DOM and increment it by 1
+ */
+
+function incrementComputerScore () {
+
+    let oldScoreC = parseInt(document.getElementById("computer-score").innerText);
+    document.getElementById("computer-score").innerText = ++oldScoreC;
+
+}
