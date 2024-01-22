@@ -99,24 +99,25 @@ header h2 {
     
 }
 
-
 /* Footer */
 
 footer {
-    background-color: #363636;
-    height: 80px;
-    width: 100%;
-    left: 0;
-    bottom: 0;
-    position: fixed;
-    box-sizing: border-box;
-    min-height: 80px;
-    padding-top: 10px;
-    text-align: center;
+    height: 20px;
+    background-color: #8BBEB2;
 }
 
-footer p {
-    color: #BD6B73;
-    font-size: 120%;
-}
+/* media query: laptops and larger (992px and up) */
 
+@media screen and (min-width: 992px) {
+    
+    #player-image {
+        width: 75%;
+        height: 75%;
+    }
+
+    #computer-image {
+        width: 75%;
+        height: 75%;
+    }
+
+}
