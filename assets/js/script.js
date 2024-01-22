@@ -58,6 +58,26 @@ function checkWinner(computerChoice, playerChoice) {
         } else if (computerChoice === "Spock") {
             return document.getElementById("messages").innerText = "Spock vapozes rock. Computer wins!";
         }
+    } else if (playerChoice === "Paper") {
+        if (computerChoice === "Rock") {
+            return document.getElementById("messages").innerText = "Paper covers rock. Player wins!";
+        } else if (computerChoice === "Scissors") {
+            return document.getElementById("messages").innerText = "Scissors cut paper. Computer wins!";
+        } else if (computerChoice === "Lizard") {
+            return document.getElementById("messages").innerText = "Lizard eats paper. Computer wins!";
+        } else if (computerChoice === "Spock") {
+            return document.getElementById("messages").innerText = "Paper disproves spock. Player wins!";
+        } 
+    } else if (playerChoice === "Scissors") {
+        if (computerChoice === "Rock") {
+            return document.getElementById("messages").innerText = "Rock crushes Scissors. Computer Wins!";
+        } else if (computerChoice === "Paper") {
+            return document.getElementById("messages").innerText = "Scissors cut paper. Player wins!";
+        } else if (computerChoice === "Lizard") {
+            return document.getElementById("messages").innerText = "Scissors decapitate lizard. Player wins!";
+        } else if (computerChoice === "Spock") {
+            return document.getElementById("messages").innerText = "Spock smashes scissors. Computer wins!";
+        }
     }
 
 }
