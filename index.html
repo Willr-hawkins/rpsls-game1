@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title-->
+    <title>The R.P.S.L.S Game</title>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/Favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/Favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/Favicon/site.webmanifest">
+    <!-- link to CSS stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h2>The R.P.S.L.S Game!</h2>
+    </header>
+
+    <section class="game-area">
+        <div>
+            <p>Choose your move:</p>
+            <button aria-label="Rock" data-choice="0" class="control">Rock</button>
+            <button aria-label="Paper" data-choice="1" class="control">Paper</button>
+            <button aria-label="Scissors" data-choice="2" class="control">Scissors</button>
+            <button aria-label="Lizard" data-choice="3" class="control">Lizard</button>
+            <button aria-label="Spock" data-choice="4" class="control">Spock</button>
+        </div>
+        <div id="messages"></div>
+        <div class="player">
+            <h3 class="scores">Player Score: <span id="player-score">0</span></h3>
+            <img id="player-image" src="assets/images/RPSLS-image.png" alt="Rock Paper Scissors Lizard Spock">
+        </div>
+        <div class="computer">
+            <h3 class="scores">Computer Score: <span id="computer-score">0</span></h3>
+            <img id="computer-image" src="assets/images/RPSLS-image.png" alt="Rock Paper Scissors Lizard Spock">
+        </div>
+    </section>
+
+    <footer>
+        <p>© The RPSLS Game - 2024</p>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
