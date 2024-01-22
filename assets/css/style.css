@@ -1,0 +1,136 @@
+/* Google fonts import */
+
+@import url('https://fonts.googleapis.com/css2?family=Marhey:wght@300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* General styles */
+
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    background-color: #8BBEB2;
+    font-family: "marhey", "sans-serif";
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-family: "marhey", "sans-serif";
+    text-transform: uppercase;
+    color: #BD6B73;
+}
+
+/* Header */
+
+header {
+    background-color: #363636;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    height: 110px;
+    display: block;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 100px;
+}
+
+header h2 {
+    padding-top: 30px;
+    text-align: center;
+}
+
+
+
+/* game-area */
+
+.game-area {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.game-area p {
+    color: #BD6B73;
+    font-size: 120%;
+}
+
+.control {
+    display: inline-block;
+    margin: 2px;
+    width: 80px;
+    height: 40px;
+}
+
+#messages {
+    height: 20px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+.player {
+    width: 45%;
+    margin-left: 27.5%;
+}
+
+#player-image {
+    width: 100%;
+    height: 100%;
+}
+
+.computer {
+    width: 45%;
+    margin-left: 27.5%;
+}
+
+#computer-image {
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #363636;
+    height: 80px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    box-sizing: border-box;
+    min-height: 80px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+footer p {
+    color: #BD6B73;
+    font-size: 120%;
+}
+
+/* Add media query for tablets and larger */
+
+@media screen and (min-width: 768px) {
+
+    .player {
+        float: left;
+        margin-left: 0;
+    }
+
+    .computer {
+        float: right;
+        margin-left: 0;
+    }
+
+}
