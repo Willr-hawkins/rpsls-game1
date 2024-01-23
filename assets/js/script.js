@@ -132,7 +132,7 @@ function incrementPlayerScore () {
     let oldScoreP = parseInt(document.getElementById("player-score").innerText);
     document.getElementById("player-score").innerText = ++oldScoreP;
 
-    if (oldScoreP === 10) {
+    if (oldScoreP === 5) {
         alert ("Well Done! You are the winner.");
         document.location.reload();
     }
@@ -148,7 +148,7 @@ function incrementComputerScore () {
     let oldScoreC = parseInt(document.getElementById("computer-score").innerText);
     document.getElementById("computer-score").innerText = ++oldScoreC;
 
-    if (oldScoreC === 10) {
+    if (oldScoreC === 5) {
         alert ("Unlucky! The computer is the winner.");
         document.location.reload();
     }
