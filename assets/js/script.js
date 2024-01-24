@@ -137,7 +137,6 @@ function incrementPlayerScore () {
 
     if (oldScoreP === 5) {
         endGame("Well Done! You are the winner.");
-        endGame(message).visibility = hidden;
     }
 
 }

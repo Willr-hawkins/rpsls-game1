@@ -99,6 +99,11 @@ header h2 {
     
 }
 
+.restart {
+    text-align: center;
+    size: 200%;
+}
+
 /* Footer */
 
 footer {
