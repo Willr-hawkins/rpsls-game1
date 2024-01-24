@@ -99,6 +99,10 @@ header h2 {
     
 }
 
+.container {
+    text-align: center;
+}
+
 #restart {
     display: inline-block;
     margin: 2px;
