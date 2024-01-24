@@ -9,12 +9,17 @@ const playerScore = document.getElementById("player-score");
 const computerScore = document.getElementById("computer-score");
 const playerImage = document.getElementById("player-image");
 const computerImage = document.getElementById("computer-image");
+const restart = document.getElementById("restart");
 const playerChoices = ["Rock", "Paper", "Scissors", "Lizard", "Spock"];
- 
+
+/**
+ * Ensure the restart button is hidden during the game
+ */
+restart.style.visibility = "hidden"; 
+
 /**
  * Add event listener to all the buttons
- */ 
-
+ */
 for (let button of buttons) {
     button.addEventListener("click", function () {
         let playerChoice = this.getAttribute("data-choice");
@@ -25,7 +30,6 @@ for (let button of buttons) {
 /**
  * The main game function
  */ 
-
 function playGame(playerChoice) {
 
     playerImage.src = `assets/images/${playerChoices[playerChoice]}.png`;
@@ -45,7 +49,6 @@ function playGame(playerChoice) {
 /**
  * Check whether the player or the computer is the winner
  */
-
 function checkWinner(computerChoice, playerChoice) {
 
     if (playerChoice === computerChoice) {
@@ -127,7 +130,6 @@ function checkWinner(computerChoice, playerChoice) {
 /**
  * Get the current player score from the DOM and increment it by 1
  */
-
 function incrementPlayerScore () {
     
     let oldScoreP = parseInt(document.getElementById("player-score").innerText);
@@ -135,7 +137,7 @@ function incrementPlayerScore () {
 
     if (oldScoreP === 5) {
         alert ("Well Done! You are the winner.");
-        document.location.reload();
+        endGame("Well Done! You are the winner.");
     }
 
 }
@@ -143,7 +145,6 @@ function incrementPlayerScore () {
 /**
  * Get the current computer score from the DOM and increment it by 1
  */
-
 function incrementComputerScore () {
 
     let oldScoreC = parseInt(document.getElementById("computer-score").innerText);
@@ -151,7 +152,16 @@ function incrementComputerScore () {
 
     if (oldScoreC === 5) {
         alert ("Unlucky! The computer is the winner.");
-        document.location.reload();
+        endGame("Unlucky! The computer is the winner.");
     }
 
+}
+
+/**
+ *  Show the restart button once the game ends
+ */
+function endGame(message) {
+    const area = document.querySelector(".game-area");
+    area.innerText = message;
+    restart.style.visibility = "visible";
 }
