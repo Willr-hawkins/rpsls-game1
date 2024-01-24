@@ -100,8 +100,8 @@ header h2 {
 }
 
 #restart {
-    font-size: 50px;
-    text-align: center;
+    font-size: 20px;
+    padding-left: 50%;
 }
 
 /* Footer */
