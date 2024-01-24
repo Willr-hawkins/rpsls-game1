@@ -1,3 +1,4 @@
+
 /**
  * Declare constants for the DOM elements
  * Declare the possible choices for the user
