@@ -136,7 +136,6 @@ function incrementPlayerScore () {
     document.getElementById("player-score").innerText = ++oldScoreP;
 
     if (oldScoreP === 5) {
-        alert ("Well Done! You are the winner.");
         endGame("Well Done! You are the winner.");
     }
 
@@ -151,7 +150,6 @@ function incrementComputerScore () {
     document.getElementById("computer-score").innerText = ++oldScoreC;
 
     if (oldScoreC === 5) {
-        alert ("Unlucky! The computer is the winner.");
         endGame("Unlucky! The computer is the winner.");
     }
 
