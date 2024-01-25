@@ -65,4 +65,13 @@ The color palette for this game was create using [Coolors](https://coolors.co/).
     - Main body text color: #BD6B73 (Old Rose).
     - Messages text color: #363636 (Jet).
 
+### Fonts 
+
+The fonts for this game where sourced from [Google Fonts](https://fonts.google.com/).
+
+- The main font used for the game is Marhey.
+
+![Marhey](https://github.com/Willr-hawkins/rpsls-game1/assets/148203271/0a6a6718-1a2b-4c50-8658-66e17e373aa7)
+
+- The backup font used for the game is the defualt Sans Serif.
 
