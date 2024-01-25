@@ -75,3 +75,27 @@ The fonts for this game where sourced from [Google Fonts](https://fonts.google.c
 
 - The backup font used for the game is the defualt Sans Serif.
 
+## Testing and Validation 
+
+### Testing 
+
+- Multiple devices where used to test the fuctionalities of the site:
+
+  - PC: Mac Mini, M2 chip, Runnning Chrome, Safari or FireFox, 27" monitor (1920x1080).
+  - Tablet: Ipad Air, M1 chip, Running Safari, 10.9" display (2360x1640).
+  - Phone: Iphone 15 pro, Running Safari, 6.1" display (2532x1170).
+
+### Validation
+
+- HTML
+    - For validating the HTML code of the game the official [W3C Validator](https://validator.w3.org/) and [Wave](wave.webaim.org) was used.
+
+- CSS
+    - For validating the CSS code of the game the official [Jigsaw Validator](https://jigsaw.w3.org/css-validator/) was used.
+
+- Javascript
+    - For validating the JavaScript code of the game the the official [JSHint](https://jshint.com/) was used.
+
+#### HTML Validation
+
+
