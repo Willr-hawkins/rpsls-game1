@@ -120,7 +120,7 @@ The fonts for this game where sourced from [Google Fonts](https://fonts.google.c
 
 ## Deployment
 
-The Summit To Share site was deployed to [GitHub](https://github.com/) pages, via the following steps:
+The R.P.S.L.S Game was deployed to [GitHub](https://github.com/) pages, via the following steps:
 
 - Go to the [rpsls-game1 repository](https://github.com/Willr-hawkins/rpsls-game1)
 - Go to the Settings tab (top left in the menu)
@@ -129,3 +129,14 @@ The Summit To Share site was deployed to [GitHub](https://github.com/) pages, vi
 - Under Branch use the dropdown menu to select main and set the folder to root.
 
 The live link can be found here: https://willr-hawkins.github.io/rpsls-game1/ 
+
+## Credits 
+
+### Acknowledgement
+
+I'd like to give a Thank you to Spencer Barriball, my mentor at Code Institute, for giving me valuable guidance and support throught the duration of this project.
+
+### Media
+
+- [Favicon](https://favicon.io/) was used to source the fav-icon for the tab.
+- [coolors](https://coolors.co/) was used to find a matching color pallette for the site.
