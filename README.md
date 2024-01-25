@@ -36,7 +36,6 @@ The R.P.S.L.S Game is a simple game based of the Big Bang Theory version of a Ro
     - After each round the winners score will be implimented by one.
 
 ![Score area](https://github.com/Willr-hawkins/rpsls-game1/assets/148203271/f084f47c-ee6a-4a77-9970-22934480922d)
-![Score area](https://github.com/Willr-hawkins/rpsls-game1/assets/148203271/8ef19c8a-26a8-494e-bcaa-3ba0029401db)
 
 - __Message area__
 
@@ -44,3 +43,10 @@ The R.P.S.L.S Game is a simple game based of the Big Bang Theory version of a Ro
     - When the game first loads there is a message to tell the user the game is the first to reach a score of five.
 
 ![Message area](https://github.com/Willr-hawkins/rpsls-game1/assets/148203271/54374773-84ba-4ab3-a81f-3610d0e80836)
+
+- __Restart Page__
+
+ - This page is displayed once either the player or computer has reached a score of 5 and the game ends.
+ - It involves a message telling the user if they one or have lost and a button to restart the game.
+
+![Restart page](https://github.com/Willr-hawkins/rpsls-game1/assets/148203271/8a1b38e7-5ccd-4ace-bc9d-ce55baf6954c)
