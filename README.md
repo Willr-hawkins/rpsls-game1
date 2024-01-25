@@ -118,3 +118,14 @@ The fonts for this game where sourced from [Google Fonts](https://fonts.google.c
         - Largest function has 47 statements in it, while the median is 4.
         - The most complex function has a cyclomatic complexity value of 27 while the median is 1.5.
 
+## Deployment
+
+The Summit To Share site was deployed to [GitHub](https://github.com/) pages, via the following steps:
+
+- Go to the [rpsls-game1 repository](https://github.com/Willr-hawkins/rpsls-game1)
+- Go to the Settings tab (top left in the menu)
+- Go to the left-hand section,under Code and automation click Pages.
+- Go to Source under Build and deployment and use the dropdown menu to choose Deploy from a branch.
+- Under Branch use the dropdown menu to select main and set the folder to root.
+
+The live link can be found here: https://willr-hawkins.github.io/rpsls-game1/ 
