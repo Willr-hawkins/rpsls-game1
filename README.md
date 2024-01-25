@@ -12,4 +12,4 @@ The R.P.S.L.S Game is a simple game based of the Big Bang Theory version of a Ro
 
     - The header is featured at the top of the page, and contains the name of the game. The header will be the first thing the user sees which is why the it is simple but eye catching.
 
-![Header](https://github.com/Willr-hawkins/rpsls-game1/assets/148203271/695d5ea1-bf27-4e7b-845e-f912cab69adb)
+![Header](https://github.com/Willr-hawkins/rpsls-game1/assets/148203271/82d33800-ff03-4901-bdb2-c15e1949a380)
