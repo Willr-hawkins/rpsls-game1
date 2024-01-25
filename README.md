@@ -27,4 +27,13 @@ The R.P.S.L.S Game is a simple game based of the Big Bang Theory version of a Ro
     - When the game first loads it will display the game image with all the game values diplayed.
     - Once the player has chosen a move then the player image will change accordingly and the computer image will change to a random move.
 
-![Image area](https://github.com/Willr-hawkins/rpsls-game1/assets/148203271/388dc60b-f695-476e-a65a-9b190cbb5d7f) ![Image area](https://github.com/Willr-hawkins/rpsls-game1/assets/148203271/f6b1147a-cb91-4c1f-8f8f-ce5d40968876)
+![Image area](https://github.com/Willr-hawkins/rpsls-game1/assets/148203271/388dc60b-f695-476e-a65a-9b190cbb5d7f) 
+![Image area](https://github.com/Willr-hawkins/rpsls-game1/assets/148203271/f6b1147a-cb91-4c1f-8f8f-ce5d40968876)
+
+- __Score area__
+
+    - In the score area of the game there are two scores one for the player and one for the computer.
+    - After each round the winners score will be implimented by one.
+
+![Score area](https://github.com/Willr-hawkins/rpsls-game1/assets/148203271/f084f47c-ee6a-4a77-9970-22934480922d)
+![Score area](https://github.com/Willr-hawkins/rpsls-game1/assets/148203271/8ef19c8a-26a8-494e-bcaa-3ba0029401db)
