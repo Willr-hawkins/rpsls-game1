@@ -37,10 +37,10 @@ function playGame(playerChoice) {
 
     let computerChoice = Math.floor(Math.random() * 5);
 
-    computerImage.src = `assets/images/${playerChoices[computerChoice]}.png`
-    computerImage.alt = playerChoices[playerChoice]
+    computerImage.src = `assets/images/${playerChoices[computerChoice]}.png`;
+    computerImage.alt = playerChoices[playerChoice];
 
-    let result = checkWinner(playerChoices[computerChoice], playerChoices[playerChoice])
+    let result = checkWinner(playerChoices[computerChoice], playerChoices[playerChoice]);
 
     upadateScores(result);
 }

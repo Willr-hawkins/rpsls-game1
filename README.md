@@ -88,7 +88,7 @@ The fonts for this game where sourced from [Google Fonts](https://fonts.google.c
 ### Validation
 
 - HTML
-    - For validating the HTML code of the game the official [W3C Validator](https://validator.w3.org/) and [Wave](wave.webaim.org) was used.
+    - For validating the HTML code of the game the official [W3C Validator](https://validator.w3.org/) was used.
 
 - CSS
     - For validating the CSS code of the game the official [Jigsaw Validator](https://jigsaw.w3.org/css-validator/) was used.
@@ -98,4 +98,18 @@ The fonts for this game where sourced from [Google Fonts](https://fonts.google.c
 
 #### HTML Validation
 
+- W3C Validator 
+    - The HTML for the game has no errors or warnings.
+
+![lighthouse](https://github.com/Willr-hawkins/rpsls-game1/assets/148203271/de9edb55-d825-49c3-8984-ebfe1f69cee2)
+
+#### CSS Validation 
+
+- JigSaw Validator
+    - The CSS for the game had no errors or warnings.
+
+#### JavaScript Validation 
+
+- JSHint Validator 
+    -
 
