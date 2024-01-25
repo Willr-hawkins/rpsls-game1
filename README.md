@@ -111,5 +111,10 @@ The fonts for this game where sourced from [Google Fonts](https://fonts.google.c
 #### JavaScript Validation 
 
 - JSHint Validator 
-    -
+    - The JavaScript for the game had no errors.
+        - The following metrics were returned:
+        - There are 6 functions in this file.
+        - Function with the largest signature take 2 arguments, while the median is 0.5.
+        - Largest function has 47 statements in it, while the median is 4.
+        - The most complex function has a cyclomatic complexity value of 27 while the median is 1.5.
 
