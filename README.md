@@ -46,7 +46,23 @@ The R.P.S.L.S Game is a simple game based of the Big Bang Theory version of a Ro
 
 - __Restart Page__
 
- - This page is displayed once either the player or computer has reached a score of 5 and the game ends.
- - It involves a message telling the user if they one or have lost and a button to restart the game.
+    - This page is displayed once either the player or computer has reached a score of 5 and the game ends.
+    - It involves a message telling the user if they one or have lost and a button to restart the game.
 
 ![Restart page](https://github.com/Willr-hawkins/rpsls-game1/assets/148203271/8a1b38e7-5ccd-4ace-bc9d-ce55baf6954c)
+
+## Design
+
+### Color Palette
+
+The color palette for this game was create using [Coolors](https://coolors.co/).
+
+![Color palette](https://github.com/Willr-hawkins/rpsls-game1/assets/148203271/1676663d-95e0-4c7d-b357-6030ad3cd8e6)
+
+    - Header background color: #363636 (Jet).
+    - Header text color: #BD6B73 (Old Rose).
+    - Background color: #8BBEB2 (Cambridge Blue).
+    - Main body text color: #BD6B73 (Old Rose).
+    - Messages text color: #363636 (Jet).
+
+
