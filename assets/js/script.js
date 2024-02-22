@@ -50,7 +50,7 @@ function playGame(playerChoice) {
 function checkWinner(computerChoice, playerChoice) {
 
     if (playerChoice === computerChoice) {
-        return message.innerText = "It is a draw!";
+        return winnerMessage.innerText = "It is a draw!";
     } else if (playerChoice === "Rock") {
         if (computerChoice === "Paper") {
             incrementComputerScore();
