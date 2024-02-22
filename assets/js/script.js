@@ -1,4 +1,3 @@
-
 /**
  * Declare constants for the DOM elements
  * Declare the possible choices for the user
@@ -24,7 +23,7 @@ for (let button of buttons) {
     button.addEventListener("click", function () {
         let playerChoice = this.getAttribute("data-choice");
         playGame(playerChoice);
-    })
+    });
 }
 
 /**
