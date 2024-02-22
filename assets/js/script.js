@@ -39,6 +39,8 @@ function playGame(playerChoice) {
 
     computerImage.src = `assets/images/${playerChoices[computerChoice]}.png`;
     computerImage.alt = playerChoices[playerChoice];
+
+    let result = checkWinner(playerChoices[computerChoice], playerChoices[playerChoice]);
 }
 
 
