@@ -10,7 +10,7 @@ const playerImage = document.getElementById("player-image");
 const computerImage = document.getElementById("computer-image");
 const restart = document.getElementById("restart");
 const playerChoices = ["Rock", "Paper", "Scissors", "Lizard", "Spock"];
-const message = document.getElementById("messages");
+const winnerMessage = document.getElementById("messages");
 
 /**
  * Ensure the restart button is hidden during the game
@@ -54,72 +54,72 @@ function checkWinner(computerChoice, playerChoice) {
     } else if (playerChoice === "Rock") {
         if (computerChoice === "Paper") {
             incrementComputerScore();
-            return message.innerText = "Paper covers rock. Computer Wins!";
+            return winnerMessage.innerText = "Paper covers rock. Computer Wins!";
         } else if (computerChoice === "Scissors") {
             incrementPlayerScore();
-            return message.innerText = "Rock crushes scissors. Player Wins!";
+            return winnerMessage.innerText = "Rock crushes scissors. Player Wins!";
         } else if (computerChoice === "Lizard") {
             incrementPlayerScore();
-            return message.innerText = "Rock crushes Lizard. Player wins!";
+            return winnerMessage.innerText = "Rock crushes Lizard. Player wins!";
         } else if (computerChoice === "Spock") {
             incrementComputerScore();
-            return message.innerText = "Spock vapozes rock. Computer wins!";
+            return winnerMessage.innerText = "Spock vapozes rock. Computer wins!";
         }
     } else if (playerChoice === "Paper") {
         if (computerChoice === "Rock") {
             incrementPlayerScore();
-            return message.innerText = "Paper covers rock. Player wins!";
+            return winnerMessage.innerText = "Paper covers rock. Player wins!";
         } else if (computerChoice === "Scissors") {
             incrementComputerScore();
-            return message.innerText = "Scissors cut paper. Computer wins!";
+            return winnerMessage.innerText = "Scissors cut paper. Computer wins!";
         } else if (computerChoice === "Lizard") {
             incrementComputerScore();
-            return message.innerText = "Lizard eats paper. Computer wins!";
+            return winnerMessage.innerText = "Lizard eats paper. Computer wins!";
         } else if (computerChoice === "Spock") {
             incrementPlayerScore();
-            return message.innerText = "Paper disproves spock. Player wins!";
+            return winnerMessage.innerText = "Paper disproves spock. Player wins!";
         } 
     } else if (playerChoice === "Scissors") {
         if (computerChoice === "Rock") {
             incrementComputerScore();
-            return message.innerText = "Rock crushes Scissors. Computer Wins!";
+            return winnerMessage.innerText = "Rock crushes Scissors. Computer Wins!";
         } else if (computerChoice === "Paper") {
             incrementPlayerScore();
-            return message.innerText = "Scissors cut paper. Player wins!";
+            return winnerMessage.innerText = "Scissors cut paper. Player wins!";
         } else if (computerChoice === "Lizard") {
             incrementPlayerScore();
-            return message.innerText = "Scissors decapitate lizard. Player wins!";
+            return winnerMessage.innerText = "Scissors decapitate lizard. Player wins!";
         } else if (computerChoice === "Spock") {
             incrementComputerScore();
-            return message.innerText = "Spock smashes scissors. Computer wins!";
+            return winnerMessage.innerText = "Spock smashes scissors. Computer wins!";
         }
     } else if (playerChoice === "Lizard") {
         if (computerChoice === "Rock") {
             incrementComputerScore();
-            return message.innerText = "Rock crushes lizard. Computer wins!";
+            return winnerMessage.innerText = "Rock crushes lizard. Computer wins!";
         } else if (computerChoice === "Paper") {
             incrementPlayerScore();
-            return message.innerText = "Lizard eats paper. Player wins!";
+            return winnerMessage.innerText = "Lizard eats paper. Player wins!";
         } else if (computerChoice === "Scissors") {
             incrementComputerScore();
-            return message.innerText = "Scissors decapitate lizard. Computer wins!";
+            return winnerMessage.innerText = "Scissors decapitate lizard. Computer wins!";
         } else if (computerChoice === "Spock") {
             incrementPlayerScore();
-            return message.innerText = "Lizard posions spock. Player wins!";
+            return winnerMessage.innerText = "Lizard posions spock. Player wins!";
         }
     } else if (playerChoice === "Spock") {
         if (computerChoice === "Rock") {
             incrementPlayerScore();
-            return message.innerText = "Spock vaporizes rock. Player wins!";
+            return winnerMessage.innerText = "Spock vaporizes rock. Player wins!";
         } else if (computerChoice === "Paper") {
             incrementComputerScore();
-            return message.innerText = "Paper disproves spock. Computer wins!";
+            return winnerMessage.innerText = "Paper disproves spock. Computer wins!";
         } else if (computerChoice === "Scissors") {
             incrementPlayerScore();
-            return message.innerText = "Spock smashes scissors. Player wins!";
+            return winnerMessage.innerText = "Spock smashes scissors. Player wins!";
         } else if (computerChoice === "Lizard") {
             incrementComputerScore();
-            return message.innerText = "Lizard posions spock. Computer wins!";
+            return winnerMessage.innerText = "Lizard posions spock. Computer wins!";
         }
     }
 
