@@ -40,8 +40,6 @@ function playGame(playerChoice) {
     computerImage.alt = playerChoices[playerChoice];
 
     let result = checkWinner(playerChoices[computerChoice], playerChoices[playerChoice]);
-
-    upadateScores(result);
 }
 
 
