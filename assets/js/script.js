@@ -131,8 +131,8 @@ function checkWinner(computerChoice, playerChoice) {
  */
 function incrementPlayerScore () {
     
-    let oldScoreP = parseInt(document.getElementById("player-score").innerText);
-    document.getElementById("player-score").innerText = ++oldScoreP;
+    let oldScoreP = parseInt(playerScore.innerText);
+    playerScore.innerText = ++oldScoreP;
 
     if (oldScoreP === 5) {
         endGame("Well Done! You are the winner.");
@@ -145,8 +145,8 @@ function incrementPlayerScore () {
  */
 function incrementComputerScore () {
 
-    let oldScoreC = parseInt(document.getElementById("computer-score").innerText);
-    document.getElementById("computer-score").innerText = ++oldScoreC;
+    let oldScoreC = parseInt(computerScore.innerText);
+    computerScore.innerText = ++oldScoreC;
 
     if (oldScoreC === 5) {
         endGame("Unlucky! The computer is the winner.");
